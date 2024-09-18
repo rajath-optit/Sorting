@@ -1,7 +1,6 @@
 Category,Control,Mod
 Account,Security contact information should be provided for an AWS account,Compliance
 Account,AWS account should be part of AWS Organizations,Compliance
-,,
 EC2,Ensure Images (AMI's) are encrypted,Compliance
 EC2,Ensure Images (AMI) are not older than 90 days,Compliance
 EC2,EC2 AMIs should restrict public access,Compliance
@@ -49,7 +48,6 @@ EC2,Ensure unused ENIs are removed,Compliance
 EC2,EC2 stopped instances should be removed in 30 days,Compliance
 EC2,Ensure instances stopped for over 90 days are removed,Compliance
 EC2,EC2 transit gateways should have auto accept shared attachments disabled,Compliance
-,,
 S3,S3 access points should have block public access settings enabled,Compliance
 S3,S3 buckets access control lists (ACLs) should not be used to manage user access to buckets,Compliance
 S3,S3 bucket cross-region replication should be enabled,Compliance
@@ -74,7 +72,6 @@ S3,S3 bucket versioning should be enabled,Compliance
 S3,S3 public access should be blocked at account level,Compliance
 S3,S3 public access should be blocked at bucket levels,Compliance
 S3,S3 public access should be blocked at account and bucket levels,Compliance
-,,
 IAM,Ensure that IAM Access analyzer is enabled for all regions,Compliance
 IAM,IAM Access analyzer should be enabled without findings,Compliance
 IAM,Ensure IAM password policy requires a minimum length of 14 or greater,Compliance
@@ -127,7 +124,6 @@ IAM,Ensure there is only one active access key available for any single IAM user
 IAM,Ensure credentials unused for 45 days or greater are disabled,Compliance
 IAM,IAM user credentials that have not been used in 90 days should be disabled,Compliance
 IAM,IAM administrator users should have MFA enabled,Compliance
-,,
 VPC,VPC should be configured to use VPC endpoints,Compliance
 VPC,VPC default security group should not allow inbound and outbound traffic,Compliance
 VPC,VPC EIPs should be associated with an EC2 instance or ENI,Compliance
